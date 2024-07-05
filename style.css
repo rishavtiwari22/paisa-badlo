@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4e4ba;
+      height: 100vh;
+    }
+
+  
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 70vh !important;
+  }
+
+form select {
+    width: 5rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+form button {
+    width: 80%;
+    height: 3rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #f4e4ba;
+    cursor: hover;
+
+}
+
+.data {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-top: 2rem;
+    margin: 2rem !important;
+} 
+
+.droupdown {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-top: 2rem;
+    margin: 2rem !important;
+    
+}
+
+.data i {
+    margin-top: 3rem !important;
+
+}
+
+.submit{
+    margin-top: 1rem;
+    text-align: center;
+}
+#value{
+    margin-top: 2rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 3rem;
+    padding: 0.5rem;
+    margin: 3rem;
+    background-color: lightblue;
+    border-radius: 0.5rem;
+
+}
+
+.widths{
+    width: 5rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+
